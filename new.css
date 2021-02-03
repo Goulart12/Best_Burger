@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Rose', cursive;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a img {
+    position: relative;
+    width: 100px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    display: inline-block;
+    color: #000;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.new-content {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-text {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    text-align: center;
+}
+
+.new-text h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 90px;
+    color: #000000;
+}
+
+.new-img {
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+
+    background: #000000;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+
+.swiper-slide p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    
+    color: #FFFFFF;
+}
+
+.swiper-slide img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 320px;
+    height: 293px;
+}
+
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right {
+    background-image: none;
+}
+
