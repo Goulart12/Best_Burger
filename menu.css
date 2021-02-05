@@ -149,6 +149,7 @@ header ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
     
 }
 
@@ -195,6 +196,10 @@ header ul li a {
 .card-price,
 .card-text {
     transition: 0.5s;
+}
+
+.content:hover {
+    overflow: visible;
 }
 
 .content:hover .card-img {
