@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Red Rose', cursive;
+    scroll-behavior: smooth;
 }
 
 section {
@@ -45,7 +46,7 @@ header ul li {
 
 header ul li a {
     display: inline-block;
-    color: #000;
+    color: #fff;
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
@@ -97,6 +98,13 @@ header ul li a {
     font-size: 24px;
     text-decoration: none;
     color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.main-text a:hover {
+    border: solid 1px #000;
+    background: #fff;
+    color: #000;
 }
 
 .main-img {
@@ -107,5 +115,15 @@ header ul li a {
 .main-img img {
     width: 500px;
     height: 671.34px;
+}
+
+.square {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%); /* Na tela normal é 60%*/
 }
 
