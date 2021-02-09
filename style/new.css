@@ -131,3 +131,35 @@ header ul li a {
     background-image: none;
 }
 
+@media(max-width: 1400px) {
+    header a img {
+        width: 70px;
+    }
+
+    header ul li a {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .new-text h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .swiper-slide {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .swiper-slide p {
+        font-size: 24px;
+        line-height: 25px;
+    }
+    
+    .swiper-slide img {    
+        width: 220px;
+        height: 193px;
+    }
+
+}

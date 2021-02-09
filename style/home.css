@@ -106,3 +106,37 @@ header ul li a {
     background: #000;
     clip-path: circle(33.0% at 84% 90%);
 }
+
+@media(max-width: 1400px) {
+    header a img {
+        width: 70px;
+    }
+
+    header ul li a {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .home-text h1 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    
+    .home-text p {
+        width: 364px;
+        height: 230px;
+        
+        font-size: 18px;
+        line-height: 20px;
+    }
+        
+    .home-img img {
+        width: 399px;
+        height: 317px;
+    }
+    
+    .circle {
+        clip-path: circle(33.0% at 84% 95%);
+    }
+}

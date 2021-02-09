@@ -124,6 +124,45 @@ header ul li a {
     width: 100%;
     height: 100%;
     background: #000;
-    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%); /* Na tela normal é 60%*/
+    clip-path: polygon(60% 0, 100% 0, 100% 100%, 60% 100%); /* Na tela normal é 60%*/
 }
 
+@media(max-width: 1400px) {
+    header a img {
+        width: 70px;
+    }
+
+    header ul li a {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .main-text h1 {
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 60px;
+    }
+    
+    .main-text p {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .main-text a {
+        width: 150px;
+        height: 80px;
+        font-size: 18px;
+    }
+    
+    .main-img img {
+        width: 400px;
+        height: 471.34px;
+    }
+
+    .square {
+        clip-path: polygon(55% 0, 100% 0, 100% 100%, 55% 100%); /* Na tela normal é 60%*/
+    }
+
+}

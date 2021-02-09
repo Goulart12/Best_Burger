@@ -168,7 +168,13 @@ header ul li a {
     text-align: center;
 }
 
-.card-title {
+.card-title,
+.card-brabo,
+.card-mec,
+.card-gigabig,
+.card-chicken,
+.card-meatball,
+.card-eggman {
     font-size: 24px;
     color: #fff;
     margin-bottom: 0.5rem;
@@ -180,14 +186,14 @@ header ul li a {
     display: inline-block;
     font-size: 18px;
     font-weight: 500;
-    margin-bottom: 1.25rem;
+    margin-bottom: 0.5rem;
     opacity: 0;
 }
 
 .card-text {
     color: #fff;
-    font-size: 10px;
-    text-align: initial;
+    font-size: 12px;
+    text-align: center;
     margin-bottom: 1.25rem;
     opacity: 0;
 }
@@ -212,8 +218,38 @@ header ul li a {
     transform: translateY(1.8rem);
 }
 
-.content:hover .card-title {
+.content:hover .card-brabo {
     transform: translateX(-3.0rem);
+    margin-bottom: 0;
+    opacity: 1;
+}
+
+.content:hover .card-mec {
+    transform: translateX(-4.5rem);
+    margin-bottom: 0;
+    opacity: 1;
+}
+
+.content:hover .card-gigabig {
+    transform: translateX(-3.3rem);
+    margin-bottom: 0;
+    opacity: 1;
+}
+
+.content:hover .card-chicken {
+    transform: translateX(-1.2rem);
+    margin-bottom: 0;
+    opacity: 1;
+}
+
+.content:hover .card-meatball {
+    transform: translateX(-2.7rem);
+    margin-bottom: 0;
+    opacity: 1;
+}
+
+.content:hover .card-eggman {
+    transform: translateX(-2.9rem);
     margin-bottom: 0;
     opacity: 1;
 }
@@ -244,7 +280,7 @@ header ul li a {
 
 .footer ul {
     position: relative;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
@@ -304,4 +340,22 @@ header ul li a {
 .footer ul li a:hover {
     transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
     box-shadow: -50px 50px 50px rgba(255, 255, 255, 0.5);
+}
+
+@media(max-width: 1400px) {
+    header a img {
+        width: 70px;
+    }
+
+    header ul li a {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .menu-text h1 {
+        font-size: 48px;
+        line-height: 90px;
+    }
+
 }
